@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TRƯỜNG ĐÀO TẠO THIẾT KẾ ĐỒ HOẠ
+ARENA MULTIMEDIA</title>
+<link rel="icon" href="IMAGES/logo_8.png">	
+<link rel="stylesheet" href="CSS/main-style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $(".btn-menu").click(function(){
+    $(".menu").slideToggle("slow");
+  });
+});
+</script>
+	
+</head>
+
+<body>
+	<div class="container">
+		<div class="row align-items-center" >
+			<div class="col-2">
+				<a href="index.html">
+					<img src="IMAGES/logo_8.png" alt="" class="img-100">
+				</a>
+			</div>
+			<div class="col-10">
+			<h1>TRƯỜNG ĐÀO TẠO THIẾT KẾ ĐỒ HOẠ<br>
+ARENA MULTIMEDIA</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12" style="position: relative">
+				<button type="button" class="btn-menu">&#9776;</button>
+				<ul class="menu">
+					<li><a href="index.html">TRANG CHỦ</a></li>
+					<li><a href="gioi_thieu.html">GIỚI THIỆU</a></li>
+					<li><a href="dao_tao.html">ĐÀO TẠO-TUYỂN SINH</a></li>
+					<li><a href="tu_van.html">TƯ VẤN</a></li>
+					<li><a href="lien_he.html">LIÊN HỆ</a></li>
+					<li><a href="dang_ky_hoc.html">ĐĂNG KÝ HỌC</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		</div>
+	
+	<div class="form-container">
+  <form>
+    <label for="fullname">Họ Tên *</label>
+    <input type="text" id="fullname" placeholder="nhập họ tên" required>
+
+    <label for="email">Email *</label>
+    <input type="email" id="email" placeholder="nhập Email của bạn" required>
+
+    <label for="phone">Số điện thoại *</label>
+    <input type="tel" id="phone" placeholder="số điện thoại" required>
+
+    <label>Giới Tính</label>
+    <div class="gender-options">
+      <label><input type="radio" name="gender"> Nam</label>
+      <label><input type="radio" name="gender"> Nữ</label>
+      <label><input type="radio" name="gender"> Khác</label>
+    </div>
+
+    <label for="education">Trình độ học vấn</label>
+    <select id="education">
+      <option>-------------</option>
+      <option>Tốt nghiệp THPT</option>
+      <option>Cao đẳng</option>
+      <option>Đại học</option>
+      <option>Khác</option>
+    </select>
+
+    <label for="location">Chọn địa điểm học</label>
+    <select id="location">
+      <option>-------------</option>
+      <option>Hà Nội</option>
+      <option>TP.HCM</option>
+    </select>
+
+    <label for="course">Chọn khoá học</label>
+    <select id="course">
+      <option>-------------</option>
+      <option>SEM 1-2</option>
+      <option>SEM 2-4</option>
+    </select>
+
+    <button type="submit">Đăng ký</button>
+  </form>
+</div>
+<div class="campus-info">
+  <div class="location">
+    <h2>TP.HCM</h2>
+    <div class="branch">
+      <strong>Nguyễn Đình Chiểu</strong><br>
+      212-214 Nguyễn Đình Chiểu, P. Võ Thị Sáu, Q. 3<br>
+      1800 1525<br>
+      arena@aprotrain.com
+    </div>
+
+    <div class="branch">
+      <strong>Nguyễn Đình Chiểu</strong><br>
+      212-214 Nguyễn Đình Chiểu, P. Võ Thị Sáu, Q. 3<br>
+      Tel: 1800 1525<br>
+      Email: arena@aprotrain.com
+    </div>
+
+    <div class="branch">
+      <strong>Nguyễn Đình Chiểu</strong><br>
+      212-214 Nguyễn Đình Chiểu, P. Võ Thị Sáu, Q. 3<br>
+      Tel: 1800 1525<br>
+      Email: arena@aprotrain.com
+    </div>
+  </div>
+
+  <div class="location">
+    <h2>HÀ NỘI</h2>
+  </div>
+
+  <div class="location">
+    <h2>NHẬN ARENA YEARBOOK 2020</h2>
+  </div>
+</div>
+</body>
+</html>
